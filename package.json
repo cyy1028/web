@@ -1,0 +1,69 @@
+{
+  "name": "zjsk",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@amap/amap-jsapi-loader": "^1.0.1",
+    "animate.css": "^4.1.1",
+    "axios": "^0.21.1",
+    "core-js": "^3.6.5",
+    "echarts": "^5.3.3",
+    "element-china-area-data": "^6.0.0",
+    "element-ui": "^2.15.10",
+    "eval5": "^1.4.7",
+    "moment": "^2.29.4",
+    "qs": "^6.11.0",
+    "sass-loader": "^7.0.0",
+    "sass-resources-loader": "^2.1.1",
+    "v-viewer": "^1.6.4",
+    "vue": "^2.6.11",
+    "vue-baidu-map": "^0.21.22",
+    "vue-photo-zoom-pro": "^3.0.1",
+    "vue-preview": "^1.1.3",
+    "vue-router": "^3.4.7",
+    "vue-seamless-scroll": "^1.1.23",
+    "vuex": "^3.5.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-component": "^1.1.1",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^4.14.1",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {
+      "vue/comment-directive": "off"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "description": "## Project setup ``` npm install ```",
+  "main": "babel.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
